@@ -19,7 +19,11 @@ const Holiday = [
 ];
 for (let i = 0; i < Holiday.length; i++) {
   console.log(Holiday[i]);
-  if (Holiday[i] === "勤労感謝の日") {
-    break; // "勤労感謝の日"まで出力したらループを終了する
-  }
+}
+
+let count = 0;
+
+while (count < Holiday.length) {
+  console.log(Holiday[count]);
+  count++;
 }
